@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat vs Dog Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🐱 Cat vs Dog Classification 🐶</h1>
+
+    <!-- Animated Upload Button -->
+    <label class="upload-btn">
+        📂 Choose Image
+        <input type="file" id="imageInput" accept="image/*" hidden>
+    </label>
+
+    <!-- Image Preview -->
+    <img id="preview" alt="Image Preview">
+
+    <!-- Predict Button -->
+    <button onclick="predict()">Predict</button>
+
+    <!-- Result -->
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
