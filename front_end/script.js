@@ -26,7 +26,7 @@ function predict() {
     formData.append("image", file);
 
     // BACKEND API CALL
-    fetch("http://127.0.0.1:5000/predict", {
+    fetch("fetchhttps://cat-dog-backend.onrender.com/predict", {
         method: "POST",
         body: formData
     })
