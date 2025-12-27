@@ -26,7 +26,7 @@ function predict() {
     formData.append("image", file);
 
     // BACKEND API CALL
-    fetch("https://car-dog-classification-1.onrender.com", {
+    fetch("https://car-dog-classification-1.onrender.com/predict", {
         method: "POST",
         body: formData
     })
